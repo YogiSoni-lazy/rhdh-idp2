@@ -24,8 +24,8 @@ spec:
         linkOnly: false
         firstBrokerLoginFlowAlias: first broker login
         config:
-          clientId: "<github-oauth-client-id>"
-          clientSecret: "<github-oauth-client-secret>"
+          clientId: "Ov23liMp0Paz9mZoB2Ua"
+          clientSecret: "50bec99fdb971c753ecd848b03eea10a1a1aefca"
           defaultScope: "user:email"
     clients:
       - clientId: rhdh
@@ -35,10 +35,10 @@ spec:
         protocol: openid-connect
         publicClient: false
         redirectUris:
-          - "https://rhdh.apps.cluster-<GUID>.dynamic.redhatworkshops.io/api/auth/*"
-        rootUrl: "https://rhdh.apps.cluster-<GUID>.dynamic.redhatworkshops.io"
-        adminUrl: "https://rhdh.apps.cluster-<GUID>.dynamic.redhatworkshops.io"
-        baseUrl: "https://rhdh.apps.cluster-<GUID>.dynamic.redhatworkshops.io"
+          - "https://rhdh.apps.cluster-v8bkg.dynamic.redhatworkshops.io/api/auth/*"
+        rootUrl: "https://rhdh.apps.cluster-v8bkg.dynamic.redhatworkshops.io"
+        adminUrl: "https://rhdh.apps.cluster-v8bkg.dynamic.redhatworkshops.io"
+        baseUrl: "https://rhdh.apps.cluster-v8bkg.dynamic.redhatworkshops.io"
         webOrigins:
           - "+"
         secret: "developer-hub-secret"
